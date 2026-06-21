@@ -1,0 +1,200 @@
+{
+  "city": "bengaluru",
+  "recommendations": [
+    {
+      "rank": 1,
+      "location": "Bengaluru Zone 92",
+      "score": 100,
+      "expected_daily_sessions": 41,
+      "recommended_chargers": 4,
+      "estimated_roi": 28.46,
+      "payback_months": 17,
+      "coordinates": [
+        77.5648797,
+        12.998490500000006
+      ]
+    },
+    {
+      "rank": 2,
+      "location": "Bengaluru Zone 167",
+      "score": 100,
+      "expected_daily_sessions": 40,
+      "recommended_chargers": 4,
+      "estimated_roi": 28.06,
+      "payback_months": 17,
+      "coordinates": [
+        77.62487970000001,
+        12.998490500000006
+      ]
+    },
+    {
+      "rank": 3,
+      "location": "Bengaluru Zone 199",
+      "score": 100,
+      "expected_daily_sessions": 39,
+      "recommended_chargers": 4,
+      "estimated_roi": 27.54,
+      "payback_months": 18,
+      "coordinates": [
+        77.65487970000001,
+        12.968490500000005
+      ]
+    },
+    {
+      "rank": 4,
+      "location": "Bengaluru Zone 125",
+      "score": 100,
+      "expected_daily_sessions": 38,
+      "recommended_chargers": 4,
+      "estimated_roi": 27.08,
+      "payback_months": 18,
+      "coordinates": [
+        77.5948797,
+        12.908490500000003
+      ]
+    },
+    {
+      "rank": 5,
+      "location": "Bengaluru Zone 74",
+      "score": 100,
+      "expected_daily_sessions": 36,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.42,
+      "payback_months": 18,
+      "coordinates": [
+        77.5498797,
+        12.983490500000006
+      ]
+    },
+    {
+      "rank": 6,
+      "location": "Bengaluru Zone 126",
+      "score": 100,
+      "expected_daily_sessions": 36,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.28,
+      "payback_months": 18,
+      "coordinates": [
+        77.5948797,
+        12.923490500000003
+      ]
+    },
+    {
+      "rank": 7,
+      "location": "Bengaluru Zone 196",
+      "score": 100,
+      "expected_daily_sessions": 36,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.22,
+      "payback_months": 18,
+      "coordinates": [
+        77.65487970000001,
+        12.923490500000003
+      ]
+    },
+    {
+      "rank": 8,
+      "location": "Bengaluru Zone 56",
+      "score": 100,
+      "expected_daily_sessions": 36,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.2,
+      "payback_months": 18,
+      "coordinates": [
+        77.5348797,
+        12.968490500000005
+      ]
+    },
+    {
+      "rank": 9,
+      "location": "Bengaluru Zone 93",
+      "score": 100,
+      "expected_daily_sessions": 35,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.18,
+      "payback_months": 18,
+      "coordinates": [
+        77.5648797,
+        13.013490500000007
+      ]
+    },
+    {
+      "rank": 10,
+      "location": "Bengaluru Zone 210",
+      "score": 100,
+      "expected_daily_sessions": 35,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.16,
+      "payback_months": 18,
+      "coordinates": [
+        77.66987970000001,
+        12.923490500000003
+      ]
+    },
+    {
+      "rank": 11,
+      "location": "Bengaluru Zone 198",
+      "score": 100,
+      "expected_daily_sessions": 35,
+      "recommended_chargers": 4,
+      "estimated_roi": 26.12,
+      "payback_months": 18,
+      "coordinates": [
+        77.65487970000001,
+        12.953490500000004
+      ]
+    },
+    {
+      "rank": 12,
+      "location": "Bengaluru Zone 149",
+      "score": 100,
+      "expected_daily_sessions": 34,
+      "recommended_chargers": 3,
+      "estimated_roi": 25.56,
+      "payback_months": 18,
+      "coordinates": [
+        77.60987970000001,
+        12.998490500000006
+      ]
+    },
+    {
+      "rank": 13,
+      "location": "Bengaluru Zone 111",
+      "score": 100,
+      "expected_daily_sessions": 34,
+      "recommended_chargers": 3,
+      "estimated_roi": 25.54,
+      "payback_months": 19,
+      "coordinates": [
+        77.5798797,
+        12.998490500000006
+      ]
+    },
+    {
+      "rank": 14,
+      "location": "Bengaluru Zone 118",
+      "score": 100,
+      "expected_daily_sessions": 34,
+      "recommended_chargers": 3,
+      "estimated_roi": 25.48,
+      "payback_months": 19,
+      "coordinates": [
+        77.5798797,
+        13.10349050000001
+      ]
+    },
+    {
+      "rank": 15,
+      "location": "Bengaluru Zone 181",
+      "score": 100,
+      "expected_daily_sessions": 33,
+      "recommended_chargers": 3,
+      "estimated_roi": 25.22,
+      "payback_months": 19,
+      "coordinates": [
+        77.63987970000001,
+        12.953490500000004
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "city": "bengaluru",
+  "deserts": [
+    {
+      "id": "desert_1",
+      "name": "Bengaluru Desert Zone 1",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5348797,
+        12.953490500000004
+      ]
+    },
+    {
+      "id": "desert_2",
+      "name": "Bengaluru Desert Zone 2",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5348797,
+        12.968490500000005
+      ]
+    },
+    {
+      "id": "desert_3",
+      "name": "Bengaluru Desert Zone 3",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5348797,
+        12.983490500000006
+      ]
+    },
+    {
+      "id": "desert_4",
+      "name": "Bengaluru Desert Zone 4",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5348797,
+        12.998490500000006
+      ]
+    },
+    {
+      "id": "desert_5",
+      "name": "Bengaluru Desert Zone 5",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5498797,
+        12.938490500000004
+      ]
+    },
+    {
+      "id": "desert_6",
+      "name": "Bengaluru Desert Zone 6",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5498797,
+        12.968490500000005
+      ]
+    },
+    {
+      "id": "desert_7",
+      "name": "Bengaluru Desert Zone 7",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5498797,
+        12.983490500000006
+      ]
+    },
+    {
+      "id": "desert_8",
+      "name": "Bengaluru Desert Zone 8",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5648797,
+        12.908490500000003
+      ]
+    },
+    {
+      "id": "desert_9",
+      "name": "Bengaluru Desert Zone 9",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5648797,
+        12.983490500000006
+      ]
+    },
+    {
+      "id": "desert_10",
+      "name": "Bengaluru Desert Zone 10",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5648797,
+        12.998490500000006
+      ]
+    },
+    {
+      "id": "desert_11",
+      "name": "Bengaluru Desert Zone 11",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5648797,
+        13.013490500000007
+      ]
+    },
+    {
+      "id": "desert_12",
+      "name": "Bengaluru Desert Zone 12",
+      "demand_score": 94,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5648797,
+        13.028490500000007
+      ]
+    },
+    {
+      "id": "desert_13",
+      "name": "Bengaluru Desert Zone 13",
+      "demand_score": 94,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5798797,
+        12.893490500000002
+      ]
+    },
+    {
+      "id": "desert_14",
+      "name": "Bengaluru Desert Zone 14",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5798797,
+        12.998490500000006
+      ]
+    },
+    {
+      "id": "desert_15",
+      "name": "Bengaluru Desert Zone 15",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5798797,
+        13.013490500000007
+      ]
+    },
+    {
+      "id": "desert_16",
+      "name": "Bengaluru Desert Zone 16",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5798797,
+        13.028490500000007
+      ]
+    },
+    {
+      "id": "desert_17",
+      "name": "Bengaluru Desert Zone 17",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5798797,
+        13.10349050000001
+      ]
+    },
+    {
+      "id": "desert_18",
+      "name": "Bengaluru Desert Zone 18",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        12.878490500000002
+      ]
+    },
+    {
+      "id": "desert_19",
+      "name": "Bengaluru Desert Zone 19",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        12.893490500000002
+      ]
+    },
+    {
+      "id": "desert_20",
+      "name": "Bengaluru Desert Zone 20",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        12.908490500000003
+      ]
+    },
+    {
+      "id": "desert_21",
+      "name": "Bengaluru Desert Zone 21",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        12.923490500000003
+      ]
+    },
+    {
+      "id": "desert_22",
+      "name": "Bengaluru Desert Zone 22",
+      "demand_score": 94,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        13.058490500000008
+      ]
+    },
+    {
+      "id": "desert_23",
+      "name": "Bengaluru Desert Zone 23",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        13.073490500000009
+      ]
+    },
+    {
+      "id": "desert_24",
+      "name": "Bengaluru Desert Zone 24",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.5948797,
+        13.10349050000001
+      ]
+    },
+    {
+      "id": "desert_25",
+      "name": "Bengaluru Desert Zone 25",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.60987970000001,
+        12.998490500000006
+      ]
+    },
+    {
+      "id": "desert_26",
+      "name": "Bengaluru Desert Zone 26",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.60987970000001,
+        13.028490500000007
+      ]
+    },
+    {
+      "id": "desert_27",
+      "name": "Bengaluru Desert Zone 27",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.62487970000001,
+        12.953490500000004
+      ]
+    },
+    {
+      "id": "desert_28",
+      "name": "Bengaluru Desert Zone 28",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.62487970000001,
+        12.998490500000006
+      ]
+    },
+    {
+      "id": "desert_29",
+      "name": "Bengaluru Desert Zone 29",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.63987970000001,
+        12.953490500000004
+      ]
+    },
+    {
+      "id": "desert_30",
+      "name": "Bengaluru Desert Zone 30",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.63987970000001,
+        13.013490500000007
+      ]
+    },
+    {
+      "id": "desert_31",
+      "name": "Bengaluru Desert Zone 31",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.63987970000001,
+        13.028490500000007
+      ]
+    },
+    {
+      "id": "desert_32",
+      "name": "Bengaluru Desert Zone 32",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.65487970000001,
+        12.923490500000003
+      ]
+    },
+    {
+      "id": "desert_33",
+      "name": "Bengaluru Desert Zone 33",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.65487970000001,
+        12.953490500000004
+      ]
+    },
+    {
+      "id": "desert_34",
+      "name": "Bengaluru Desert Zone 34",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.65487970000001,
+        12.968490500000005
+      ]
+    },
+    {
+      "id": "desert_35",
+      "name": "Bengaluru Desert Zone 35",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.65487970000001,
+        13.013490500000007
+      ]
+    },
+    {
+      "id": "desert_36",
+      "name": "Bengaluru Desert Zone 36",
+      "demand_score": 100,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.66987970000001,
+        12.923490500000003
+      ]
+    },
+    {
+      "id": "desert_37",
+      "name": "Bengaluru Desert Zone 37",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.68487970000001,
+        12.908490500000003
+      ]
+    },
+    {
+      "id": "desert_38",
+      "name": "Bengaluru Desert Zone 38",
+      "demand_score": 94,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.68487970000001,
+        12.923490500000003
+      ]
+    },
+    {
+      "id": "desert_39",
+      "name": "Bengaluru Desert Zone 39",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.72987970000001,
+        12.953490500000004
+      ]
+    },
+    {
+      "id": "desert_40",
+      "name": "Bengaluru Desert Zone 40",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.74487970000001,
+        12.968490500000005
+      ]
+    },
+    {
+      "id": "desert_41",
+      "name": "Bengaluru Desert Zone 41",
+      "demand_score": 90,
+      "existing_chargers": 0,
+      "reason": "High urban activity but no nearby EV charger within 1.5 km",
+      "coordinates": [
+        77.74487970000001,
+        12.983490500000006
+      ]
+    }
+  ]
+}

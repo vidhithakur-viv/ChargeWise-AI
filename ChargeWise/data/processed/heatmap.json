@@ -1,0 +1,5060 @@
+{
+  "city": "bengaluru",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_1",
+        "name": "Bengaluru Zone 1",
+        "opportunity_score": 57,
+        "poi_count": 7,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 141.04,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_2",
+        "name": "Bengaluru Zone 2",
+        "opportunity_score": 63,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 99.92,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_3",
+        "name": "Bengaluru Zone 3",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 79.23,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_4",
+        "name": "Bengaluru Zone 4",
+        "opportunity_score": 63,
+        "poi_count": 8,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 43.08,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_5",
+        "name": "Bengaluru Zone 5",
+        "opportunity_score": 70,
+        "poi_count": 25,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 9.4,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_6",
+        "name": "Bengaluru Zone 6",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 52.94,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4748797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_7",
+        "name": "Bengaluru Zone 7",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.19,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_8",
+        "name": "Bengaluru Zone 8",
+        "opportunity_score": 57,
+        "poi_count": 1,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 91.43,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_9",
+        "name": "Bengaluru Zone 9",
+        "opportunity_score": 63,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 21.13,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_10",
+        "name": "Bengaluru Zone 10",
+        "opportunity_score": 80,
+        "poi_count": 41,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 41.63,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_11",
+        "name": "Bengaluru Zone 11",
+        "opportunity_score": 63,
+        "poi_count": 9,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 7.84,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_12",
+        "name": "Bengaluru Zone 12",
+        "opportunity_score": 70,
+        "poi_count": 19,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 27.03,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_13",
+        "name": "Bengaluru Zone 13",
+        "opportunity_score": 63,
+        "poi_count": 7,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 48.46,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_14",
+        "name": "Bengaluru Zone 14",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 28.88,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_15",
+        "name": "Bengaluru Zone 15",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 34.97,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_16",
+        "name": "Bengaluru Zone 16",
+        "opportunity_score": 70,
+        "poi_count": 10,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 22.77,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_17",
+        "name": "Bengaluru Zone 17",
+        "opportunity_score": 57,
+        "poi_count": 1,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.77,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_18",
+        "name": "Bengaluru Zone 18",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 15.47,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4898797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_19",
+        "name": "Bengaluru Zone 19",
+        "opportunity_score": 57,
+        "poi_count": 1,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 52.35,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_20",
+        "name": "Bengaluru Zone 20",
+        "opportunity_score": 45,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 309.56,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_21",
+        "name": "Bengaluru Zone 21",
+        "opportunity_score": 70,
+        "poi_count": 16,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 79.17,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_22",
+        "name": "Bengaluru Zone 22",
+        "opportunity_score": 80,
+        "poi_count": 49,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 18.96,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_23",
+        "name": "Bengaluru Zone 23",
+        "opportunity_score": 70,
+        "poi_count": 13,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 58.92,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_24",
+        "name": "Bengaluru Zone 24",
+        "opportunity_score": 58,
+        "poi_count": 20,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 394.16,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_25",
+        "name": "Bengaluru Zone 25",
+        "opportunity_score": 70,
+        "poi_count": 28,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 35.02,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_26",
+        "name": "Bengaluru Zone 26",
+        "opportunity_score": 70,
+        "poi_count": 13,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 13.6,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_27",
+        "name": "Bengaluru Zone 27",
+        "opportunity_score": 63,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 36.58,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_28",
+        "name": "Bengaluru Zone 28",
+        "opportunity_score": 63,
+        "poi_count": 9,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 14.58,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_29",
+        "name": "Bengaluru Zone 29",
+        "opportunity_score": 70,
+        "poi_count": 10,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 21.73,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_30",
+        "name": "Bengaluru Zone 30",
+        "opportunity_score": 70,
+        "poi_count": 28,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.39,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_31",
+        "name": "Bengaluru Zone 31",
+        "opportunity_score": 70,
+        "poi_count": 13,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 16.29,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_32",
+        "name": "Bengaluru Zone 32",
+        "opportunity_score": 70,
+        "poi_count": 18,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 22.4,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5048797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_33",
+        "name": "Bengaluru Zone 33",
+        "opportunity_score": 51,
+        "poi_count": 2,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 113.05,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_34",
+        "name": "Bengaluru Zone 34",
+        "opportunity_score": 63,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 90.84,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_35",
+        "name": "Bengaluru Zone 35",
+        "opportunity_score": 57,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 111.89,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_36",
+        "name": "Bengaluru Zone 36",
+        "opportunity_score": 70,
+        "poi_count": 16,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 37.14,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_37",
+        "name": "Bengaluru Zone 37",
+        "opportunity_score": 80,
+        "poi_count": 45,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 59.94,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_38",
+        "name": "Bengaluru Zone 38",
+        "opportunity_score": 80,
+        "poi_count": 36,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 8.59,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_39",
+        "name": "Bengaluru Zone 39",
+        "opportunity_score": 70,
+        "poi_count": 26,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 39.98,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_40",
+        "name": "Bengaluru Zone 40",
+        "opportunity_score": 70,
+        "poi_count": 27,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 10.18,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_41",
+        "name": "Bengaluru Zone 41",
+        "opportunity_score": 70,
+        "poi_count": 14,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 20.35,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_42",
+        "name": "Bengaluru Zone 42",
+        "opportunity_score": 63,
+        "poi_count": 9,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 50.33,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_43",
+        "name": "Bengaluru Zone 43",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 32.53,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_44",
+        "name": "Bengaluru Zone 44",
+        "opportunity_score": 70,
+        "poi_count": 12,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 14.84,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_45",
+        "name": "Bengaluru Zone 45",
+        "opportunity_score": 70,
+        "poi_count": 29,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 24.28,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_46",
+        "name": "Bengaluru Zone 46",
+        "opportunity_score": 63,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 92.71,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_47",
+        "name": "Bengaluru Zone 47",
+        "opportunity_score": 63,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 3.95,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5198797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_48",
+        "name": "Bengaluru Zone 48",
+        "opportunity_score": 45,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 556.57,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.8484905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_49",
+        "name": "Bengaluru Zone 49",
+        "opportunity_score": 80,
+        "poi_count": 40,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 38.91,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_50",
+        "name": "Bengaluru Zone 50",
+        "opportunity_score": 70,
+        "poi_count": 14,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 67.54,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_51",
+        "name": "Bengaluru Zone 51",
+        "opportunity_score": 70,
+        "poi_count": 11,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 7.32,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_52",
+        "name": "Bengaluru Zone 52",
+        "opportunity_score": 70,
+        "poi_count": 17,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 4.59,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_53",
+        "name": "Bengaluru Zone 53",
+        "opportunity_score": 63,
+        "poi_count": 7,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 28.34,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_54",
+        "name": "Bengaluru Zone 54",
+        "opportunity_score": 80,
+        "poi_count": 47,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 71.46,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_55",
+        "name": "Bengaluru Zone 55",
+        "opportunity_score": 90,
+        "poi_count": 104,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 11.68,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_56",
+        "name": "Bengaluru Zone 56",
+        "opportunity_score": 100,
+        "poi_count": 210,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 28.84,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_57",
+        "name": "Bengaluru Zone 57",
+        "opportunity_score": 90,
+        "poi_count": 116,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 17.58,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_58",
+        "name": "Bengaluru Zone 58",
+        "opportunity_score": 90,
+        "poi_count": 98,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 17.7,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_59",
+        "name": "Bengaluru Zone 59",
+        "opportunity_score": 70,
+        "poi_count": 15,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 35.88,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_60",
+        "name": "Bengaluru Zone 60",
+        "opportunity_score": 59,
+        "poi_count": 51,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 123.25,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_61",
+        "name": "Bengaluru Zone 61",
+        "opportunity_score": 49,
+        "poi_count": 21,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 177.86,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_62",
+        "name": "Bengaluru Zone 62",
+        "opportunity_score": 63,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.17,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_63",
+        "name": "Bengaluru Zone 63",
+        "opportunity_score": 63,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 39.19,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_64",
+        "name": "Bengaluru Zone 64",
+        "opportunity_score": 63,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 15.5,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5348797,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_65",
+        "name": "Bengaluru Zone 65",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 83.08,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.8484905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_66",
+        "name": "Bengaluru Zone 66",
+        "opportunity_score": 70,
+        "poi_count": 21,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.29,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_67",
+        "name": "Bengaluru Zone 67",
+        "opportunity_score": 65,
+        "poi_count": 50,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 9.15,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_68",
+        "name": "Bengaluru Zone 68",
+        "opportunity_score": 55,
+        "poi_count": 21,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 40.83,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_69",
+        "name": "Bengaluru Zone 69",
+        "opportunity_score": 80,
+        "poi_count": 56,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 32.16,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_70",
+        "name": "Bengaluru Zone 70",
+        "opportunity_score": 80,
+        "poi_count": 47,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.17,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_71",
+        "name": "Bengaluru Zone 71",
+        "opportunity_score": 90,
+        "poi_count": 146,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 33.06,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_72",
+        "name": "Bengaluru Zone 72",
+        "opportunity_score": 70,
+        "poi_count": 28,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 14.95,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_73",
+        "name": "Bengaluru Zone 73",
+        "opportunity_score": 90,
+        "poi_count": 82,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 4.91,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_74",
+        "name": "Bengaluru Zone 74",
+        "opportunity_score": 100,
+        "poi_count": 221,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 16.76,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_75",
+        "name": "Bengaluru Zone 75",
+        "opportunity_score": 85,
+        "poi_count": 381,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 16.39,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_76",
+        "name": "Bengaluru Zone 76",
+        "opportunity_score": 75,
+        "poi_count": 245,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 57.32,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_77",
+        "name": "Bengaluru Zone 77",
+        "opportunity_score": 65,
+        "poi_count": 100,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 71.47,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_78",
+        "name": "Bengaluru Zone 78",
+        "opportunity_score": 70,
+        "poi_count": 25,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 21.48,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_79",
+        "name": "Bengaluru Zone 79",
+        "opportunity_score": 70,
+        "poi_count": 10,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 11.27,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_80",
+        "name": "Bengaluru Zone 80",
+        "opportunity_score": 84,
+        "poi_count": 103,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 282.74,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_81",
+        "name": "Bengaluru Zone 81",
+        "opportunity_score": 70,
+        "poi_count": 23,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 49.37,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498797,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_82",
+        "name": "Bengaluru Zone 82",
+        "opportunity_score": 57,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 35.2,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.8484905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_83",
+        "name": "Bengaluru Zone 83",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 63.88,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_84",
+        "name": "Bengaluru Zone 84",
+        "opportunity_score": 80,
+        "poi_count": 37,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 37.56,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_85",
+        "name": "Bengaluru Zone 85",
+        "opportunity_score": 65,
+        "poi_count": 35,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 59.98,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_86",
+        "name": "Bengaluru Zone 86",
+        "opportunity_score": 90,
+        "poi_count": 96,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 16.4,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_87",
+        "name": "Bengaluru Zone 87",
+        "opportunity_score": 74,
+        "poi_count": 61,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 102.37,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_88",
+        "name": "Bengaluru Zone 88",
+        "opportunity_score": 80,
+        "poi_count": 74,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 8.46,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_89",
+        "name": "Bengaluru Zone 89",
+        "opportunity_score": 85,
+        "poi_count": 250,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 12.34,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_90",
+        "name": "Bengaluru Zone 90",
+        "opportunity_score": 65,
+        "poi_count": 53,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 71.11,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_91",
+        "name": "Bengaluru Zone 91",
+        "opportunity_score": 90,
+        "poi_count": 86,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 27.95,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_92",
+        "name": "Bengaluru Zone 92",
+        "opportunity_score": 100,
+        "poi_count": 323,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 41.14,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_93",
+        "name": "Bengaluru Zone 93",
+        "opportunity_score": 100,
+        "poi_count": 209,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 96.4,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_94",
+        "name": "Bengaluru Zone 94",
+        "opportunity_score": 94,
+        "poi_count": 176,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 293.56,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_95",
+        "name": "Bengaluru Zone 95",
+        "opportunity_score": 70,
+        "poi_count": 26,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 6.55,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_96",
+        "name": "Bengaluru Zone 96",
+        "opportunity_score": 70,
+        "poi_count": 20,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 52.25,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_97",
+        "name": "Bengaluru Zone 97",
+        "opportunity_score": 80,
+        "poi_count": 51,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 16.5,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_98",
+        "name": "Bengaluru Zone 98",
+        "opportunity_score": 58,
+        "poi_count": 25,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 312.56,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_99",
+        "name": "Bengaluru Zone 99",
+        "opportunity_score": 80,
+        "poi_count": 71,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 15.04,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_100",
+        "name": "Bengaluru Zone 100",
+        "opportunity_score": 63,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 37.51,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648797,
+          13.11849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_101",
+        "name": "Bengaluru Zone 101",
+        "opportunity_score": 63,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 82.0,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.8484905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_102",
+        "name": "Bengaluru Zone 102",
+        "opportunity_score": 70,
+        "poi_count": 12,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 58.06,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_103",
+        "name": "Bengaluru Zone 103",
+        "opportunity_score": 80,
+        "poi_count": 58,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 41.22,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_104",
+        "name": "Bengaluru Zone 104",
+        "opportunity_score": 94,
+        "poi_count": 153,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 121.17,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_105",
+        "name": "Bengaluru Zone 105",
+        "opportunity_score": 85,
+        "poi_count": 174,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 23.07,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_106",
+        "name": "Bengaluru Zone 106",
+        "opportunity_score": 85,
+        "poi_count": 234,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 12.23,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_107",
+        "name": "Bengaluru Zone 107",
+        "opportunity_score": 85,
+        "poi_count": 159,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 10.08,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_108",
+        "name": "Bengaluru Zone 108",
+        "opportunity_score": 75,
+        "poi_count": 136,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 11.51,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_109",
+        "name": "Bengaluru Zone 109",
+        "opportunity_score": 85,
+        "poi_count": 335,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 24.19,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_110",
+        "name": "Bengaluru Zone 110",
+        "opportunity_score": 79,
+        "poi_count": 262,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 109.63,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_111",
+        "name": "Bengaluru Zone 111",
+        "opportunity_score": 100,
+        "poi_count": 177,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.98,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_112",
+        "name": "Bengaluru Zone 112",
+        "opportunity_score": 90,
+        "poi_count": 99,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.43,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_113",
+        "name": "Bengaluru Zone 113",
+        "opportunity_score": 90,
+        "poi_count": 129,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 13.8,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_114",
+        "name": "Bengaluru Zone 114",
+        "opportunity_score": 70,
+        "poi_count": 29,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.02,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_115",
+        "name": "Bengaluru Zone 115",
+        "opportunity_score": 80,
+        "poi_count": 65,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 18.4,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_116",
+        "name": "Bengaluru Zone 116",
+        "opportunity_score": 64,
+        "poi_count": 26,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 296.47,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_117",
+        "name": "Bengaluru Zone 117",
+        "opportunity_score": 80,
+        "poi_count": 70,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 92.51,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_118",
+        "name": "Bengaluru Zone 118",
+        "opportunity_score": 100,
+        "poi_count": 174,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 54.63,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_119",
+        "name": "Bengaluru Zone 119",
+        "opportunity_score": 64,
+        "poi_count": 12,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 239.76,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.11849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_120",
+        "name": "Bengaluru Zone 120",
+        "opportunity_score": 70,
+        "poi_count": 24,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 28.85,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5798797,
+          13.133490500000011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_121",
+        "name": "Bengaluru Zone 121",
+        "opportunity_score": 57,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 102.82,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.8484905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_122",
+        "name": "Bengaluru Zone 122",
+        "opportunity_score": 70,
+        "poi_count": 27,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 4.79,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_123",
+        "name": "Bengaluru Zone 123",
+        "opportunity_score": 90,
+        "poi_count": 84,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 59.63,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_124",
+        "name": "Bengaluru Zone 124",
+        "opportunity_score": 90,
+        "poi_count": 85,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 55.0,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_125",
+        "name": "Bengaluru Zone 125",
+        "opportunity_score": 100,
+        "poi_count": 254,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.74,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_126",
+        "name": "Bengaluru Zone 126",
+        "opportunity_score": 100,
+        "poi_count": 214,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 45.46,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_127",
+        "name": "Bengaluru Zone 127",
+        "opportunity_score": 79,
+        "poi_count": 155,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 273.65,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_128",
+        "name": "Bengaluru Zone 128",
+        "opportunity_score": 85,
+        "poi_count": 175,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 42.06,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_129",
+        "name": "Bengaluru Zone 129",
+        "opportunity_score": 67,
+        "poi_count": 399,
+        "existing_chargers_nearby": 6,
+        "nearest_road_distance_m": 47.98,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_130",
+        "name": "Bengaluru Zone 130",
+        "opportunity_score": 75,
+        "poi_count": 331,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 97.84,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_131",
+        "name": "Bengaluru Zone 131",
+        "opportunity_score": 84,
+        "poi_count": 100,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 153.79,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_132",
+        "name": "Bengaluru Zone 132",
+        "opportunity_score": 70,
+        "poi_count": 19,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 22.04,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_133",
+        "name": "Bengaluru Zone 133",
+        "opportunity_score": 80,
+        "poi_count": 70,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 20.26,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_134",
+        "name": "Bengaluru Zone 134",
+        "opportunity_score": 74,
+        "poi_count": 53,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 175.64,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_135",
+        "name": "Bengaluru Zone 135",
+        "opportunity_score": 94,
+        "poi_count": 326,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 130.14,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_136",
+        "name": "Bengaluru Zone 136",
+        "opportunity_score": 90,
+        "poi_count": 143,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 29.52,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_137",
+        "name": "Bengaluru Zone 137",
+        "opportunity_score": 80,
+        "poi_count": 63,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 98.48,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_138",
+        "name": "Bengaluru Zone 138",
+        "opportunity_score": 100,
+        "poi_count": 155,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 11.78,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_139",
+        "name": "Bengaluru Zone 139",
+        "opportunity_score": 51,
+        "poi_count": 6,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 574.45,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5948797,
+          13.11849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_140",
+        "name": "Bengaluru Zone 140",
+        "opportunity_score": 64,
+        "poi_count": 23,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 264.14,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_141",
+        "name": "Bengaluru Zone 141",
+        "opportunity_score": 80,
+        "poi_count": 43,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 22.13,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_142",
+        "name": "Bengaluru Zone 142",
+        "opportunity_score": 80,
+        "poi_count": 37,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 50.5,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_143",
+        "name": "Bengaluru Zone 143",
+        "opportunity_score": 85,
+        "poi_count": 171,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 39.11,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_144",
+        "name": "Bengaluru Zone 144",
+        "opportunity_score": 75,
+        "poi_count": 160,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 6.07,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_145",
+        "name": "Bengaluru Zone 145",
+        "opportunity_score": 75,
+        "poi_count": 217,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 26.98,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_146",
+        "name": "Bengaluru Zone 146",
+        "opportunity_score": 74,
+        "poi_count": 37,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 191.45,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_147",
+        "name": "Bengaluru Zone 147",
+        "opportunity_score": 75,
+        "poi_count": 609,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 11.6,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_148",
+        "name": "Bengaluru Zone 148",
+        "opportunity_score": 75,
+        "poi_count": 351,
+        "existing_chargers_nearby": 4,
+        "nearest_road_distance_m": 36.52,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_149",
+        "name": "Bengaluru Zone 149",
+        "opportunity_score": 100,
+        "poi_count": 178,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 8.69,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_150",
+        "name": "Bengaluru Zone 150",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 15.69,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_151",
+        "name": "Bengaluru Zone 151",
+        "opportunity_score": 90,
+        "poi_count": 125,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 33.18,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_152",
+        "name": "Bengaluru Zone 152",
+        "opportunity_score": 55,
+        "poi_count": 29,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 81.78,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_153",
+        "name": "Bengaluru Zone 153",
+        "opportunity_score": 80,
+        "poi_count": 59,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 24.98,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_154",
+        "name": "Bengaluru Zone 154",
+        "opportunity_score": 80,
+        "poi_count": 35,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 85.14,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_155",
+        "name": "Bengaluru Zone 155",
+        "opportunity_score": 57,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 266.87,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_156",
+        "name": "Bengaluru Zone 156",
+        "opportunity_score": 70,
+        "poi_count": 25,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 62.01,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_157",
+        "name": "Bengaluru Zone 157",
+        "opportunity_score": 70,
+        "poi_count": 28,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 68.76,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.60987970000001,
+          13.11849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_158",
+        "name": "Bengaluru Zone 158",
+        "opportunity_score": 57,
+        "poi_count": 1,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 66.3,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_159",
+        "name": "Bengaluru Zone 159",
+        "opportunity_score": 70,
+        "poi_count": 27,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 40.34,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_160",
+        "name": "Bengaluru Zone 160",
+        "opportunity_score": 80,
+        "poi_count": 59,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 30.32,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_161",
+        "name": "Bengaluru Zone 161",
+        "opportunity_score": 75,
+        "poi_count": 101,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 53.26,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_162",
+        "name": "Bengaluru Zone 162",
+        "opportunity_score": 75,
+        "poi_count": 152,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 79.28,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_163",
+        "name": "Bengaluru Zone 163",
+        "opportunity_score": 75,
+        "poi_count": 367,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 26.15,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_164",
+        "name": "Bengaluru Zone 164",
+        "opportunity_score": 90,
+        "poi_count": 90,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 21.76,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_165",
+        "name": "Bengaluru Zone 165",
+        "opportunity_score": 65,
+        "poi_count": 112,
+        "existing_chargers_nearby": 3,
+        "nearest_road_distance_m": 18.54,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_166",
+        "name": "Bengaluru Zone 166",
+        "opportunity_score": 69,
+        "poi_count": 102,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 128.02,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_167",
+        "name": "Bengaluru Zone 167",
+        "opportunity_score": 100,
+        "poi_count": 303,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 85.41,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_168",
+        "name": "Bengaluru Zone 168",
+        "opportunity_score": 80,
+        "poi_count": 60,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 2.31,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_169",
+        "name": "Bengaluru Zone 169",
+        "opportunity_score": 80,
+        "poi_count": 60,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.65,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_170",
+        "name": "Bengaluru Zone 170",
+        "opportunity_score": 75,
+        "poi_count": 125,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 5.01,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_171",
+        "name": "Bengaluru Zone 171",
+        "opportunity_score": 80,
+        "poi_count": 31,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 21.17,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_172",
+        "name": "Bengaluru Zone 172",
+        "opportunity_score": 70,
+        "poi_count": 11,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 56.84,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_173",
+        "name": "Bengaluru Zone 173",
+        "opportunity_score": 57,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 108.64,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_174",
+        "name": "Bengaluru Zone 174",
+        "opportunity_score": 70,
+        "poi_count": 15,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 40.43,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_175",
+        "name": "Bengaluru Zone 175",
+        "opportunity_score": 70,
+        "poi_count": 20,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 32.68,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.62487970000001,
+          13.11849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_176",
+        "name": "Bengaluru Zone 176",
+        "opportunity_score": 80,
+        "poi_count": 66,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 43.79,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_177",
+        "name": "Bengaluru Zone 177",
+        "opportunity_score": 80,
+        "poi_count": 39,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 15.97,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_178",
+        "name": "Bengaluru Zone 178",
+        "opportunity_score": 85,
+        "poi_count": 192,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 40.43,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_179",
+        "name": "Bengaluru Zone 179",
+        "opportunity_score": 75,
+        "poi_count": 97,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 32.22,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_180",
+        "name": "Bengaluru Zone 180",
+        "opportunity_score": 58,
+        "poi_count": 15,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 613.93,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_181",
+        "name": "Bengaluru Zone 181",
+        "opportunity_score": 100,
+        "poi_count": 161,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 19.01,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_182",
+        "name": "Bengaluru Zone 182",
+        "opportunity_score": 75,
+        "poi_count": 553,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 9.94,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_183",
+        "name": "Bengaluru Zone 183",
+        "opportunity_score": 75,
+        "poi_count": 502,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 40.45,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_184",
+        "name": "Bengaluru Zone 184",
+        "opportunity_score": 80,
+        "poi_count": 67,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 37.99,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_185",
+        "name": "Bengaluru Zone 185",
+        "opportunity_score": 90,
+        "poi_count": 95,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 34.64,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_186",
+        "name": "Bengaluru Zone 186",
+        "opportunity_score": 90,
+        "poi_count": 135,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 27.29,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_187",
+        "name": "Bengaluru Zone 187",
+        "opportunity_score": 80,
+        "poi_count": 30,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 24.91,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_188",
+        "name": "Bengaluru Zone 188",
+        "opportunity_score": 84,
+        "poi_count": 84,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 153.23,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_189",
+        "name": "Bengaluru Zone 189",
+        "opportunity_score": 70,
+        "poi_count": 23,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 44.72,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_190",
+        "name": "Bengaluru Zone 190",
+        "opportunity_score": 80,
+        "poi_count": 77,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 71.73,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.08849050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_191",
+        "name": "Bengaluru Zone 191",
+        "opportunity_score": 63,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 75.96,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.63987970000001,
+          13.10349050000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_192",
+        "name": "Bengaluru Zone 192",
+        "opportunity_score": 70,
+        "poi_count": 22,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 12.17,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.863490500000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_193",
+        "name": "Bengaluru Zone 193",
+        "opportunity_score": 70,
+        "poi_count": 23,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 24.15,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_194",
+        "name": "Bengaluru Zone 194",
+        "opportunity_score": 70,
+        "poi_count": 24,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 68.23,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_195",
+        "name": "Bengaluru Zone 195",
+        "opportunity_score": 79,
+        "poi_count": 167,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 141.25,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_196",
+        "name": "Bengaluru Zone 196",
+        "opportunity_score": 100,
+        "poi_count": 211,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 62.77,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_197",
+        "name": "Bengaluru Zone 197",
+        "opportunity_score": 51,
+        "poi_count": 8,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 455.02,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_198",
+        "name": "Bengaluru Zone 198",
+        "opportunity_score": 100,
+        "poi_count": 206,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 13.42,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_199",
+        "name": "Bengaluru Zone 199",
+        "opportunity_score": 100,
+        "poi_count": 277,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 11.9,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_200",
+        "name": "Bengaluru Zone 200",
+        "opportunity_score": 80,
+        "poi_count": 34,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 3.44,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_201",
+        "name": "Bengaluru Zone 201",
+        "opportunity_score": 80,
+        "poi_count": 69,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 98.06,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_202",
+        "name": "Bengaluru Zone 202",
+        "opportunity_score": 90,
+        "poi_count": 82,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 46.84,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_203",
+        "name": "Bengaluru Zone 203",
+        "opportunity_score": 80,
+        "poi_count": 45,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.74,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_204",
+        "name": "Bengaluru Zone 204",
+        "opportunity_score": 63,
+        "poi_count": 5,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 25.8,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_205",
+        "name": "Bengaluru Zone 205",
+        "opportunity_score": 70,
+        "poi_count": 28,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 26.77,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_206",
+        "name": "Bengaluru Zone 206",
+        "opportunity_score": 70,
+        "poi_count": 14,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 1.8,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65487970000001,
+          13.073490500000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_207",
+        "name": "Bengaluru Zone 207",
+        "opportunity_score": 57,
+        "poi_count": 2,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 43.23,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.878490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_208",
+        "name": "Bengaluru Zone 208",
+        "opportunity_score": 64,
+        "poi_count": 13,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 205.22,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.893490500000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_209",
+        "name": "Bengaluru Zone 209",
+        "opportunity_score": 68,
+        "poi_count": 49,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 393.24,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_210",
+        "name": "Bengaluru Zone 210",
+        "opportunity_score": 100,
+        "poi_count": 208,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 65.38,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_211",
+        "name": "Bengaluru Zone 211",
+        "opportunity_score": 53,
+        "poi_count": 11,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 795.58,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_212",
+        "name": "Bengaluru Zone 212",
+        "opportunity_score": 58,
+        "poi_count": 17,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 548.41,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_213",
+        "name": "Bengaluru Zone 213",
+        "opportunity_score": 70,
+        "poi_count": 19,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 30.11,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_214",
+        "name": "Bengaluru Zone 214",
+        "opportunity_score": 80,
+        "poi_count": 61,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 47.13,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_215",
+        "name": "Bengaluru Zone 215",
+        "opportunity_score": 80,
+        "poi_count": 54,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 54.02,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_216",
+        "name": "Bengaluru Zone 216",
+        "opportunity_score": 80,
+        "poi_count": 34,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 48.65,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_217",
+        "name": "Bengaluru Zone 217",
+        "opportunity_score": 70,
+        "poi_count": 21,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 30.74,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_218",
+        "name": "Bengaluru Zone 218",
+        "opportunity_score": 70,
+        "poi_count": 10,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 12.45,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_219",
+        "name": "Bengaluru Zone 219",
+        "opportunity_score": 63,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 70.18,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66987970000001,
+          13.058490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_220",
+        "name": "Bengaluru Zone 220",
+        "opportunity_score": 90,
+        "poi_count": 94,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 41.27,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_221",
+        "name": "Bengaluru Zone 221",
+        "opportunity_score": 94,
+        "poi_count": 204,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 176.07,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_222",
+        "name": "Bengaluru Zone 222",
+        "opportunity_score": 84,
+        "poi_count": 105,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 124.61,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_223",
+        "name": "Bengaluru Zone 223",
+        "opportunity_score": 74,
+        "poi_count": 33,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 220.2,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_224",
+        "name": "Bengaluru Zone 224",
+        "opportunity_score": 80,
+        "poi_count": 70,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 41.87,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_225",
+        "name": "Bengaluru Zone 225",
+        "opportunity_score": 74,
+        "poi_count": 69,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 135.36,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_226",
+        "name": "Bengaluru Zone 226",
+        "opportunity_score": 65,
+        "poi_count": 67,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 32.4,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_227",
+        "name": "Bengaluru Zone 227",
+        "opportunity_score": 49,
+        "poi_count": 21,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 155.78,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_228",
+        "name": "Bengaluru Zone 228",
+        "opportunity_score": 48,
+        "poi_count": 5,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 45.44,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_229",
+        "name": "Bengaluru Zone 229",
+        "opportunity_score": 64,
+        "poi_count": 13,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 171.08,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68487970000001,
+          13.043490500000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_230",
+        "name": "Bengaluru Zone 230",
+        "opportunity_score": 74,
+        "poi_count": 32,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 139.39,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_231",
+        "name": "Bengaluru Zone 231",
+        "opportunity_score": 70,
+        "poi_count": 27,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 92.86,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_232",
+        "name": "Bengaluru Zone 232",
+        "opportunity_score": 75,
+        "poi_count": 114,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 52.01,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_233",
+        "name": "Bengaluru Zone 233",
+        "opportunity_score": 85,
+        "poi_count": 255,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 39.98,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_234",
+        "name": "Bengaluru Zone 234",
+        "opportunity_score": 75,
+        "poi_count": 103,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 64.2,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_235",
+        "name": "Bengaluru Zone 235",
+        "opportunity_score": 59,
+        "poi_count": 114,
+        "existing_chargers_nearby": 4,
+        "nearest_road_distance_m": 136.52,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_236",
+        "name": "Bengaluru Zone 236",
+        "opportunity_score": 59,
+        "poi_count": 114,
+        "existing_chargers_nearby": 4,
+        "nearest_road_distance_m": 140.4,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_237",
+        "name": "Bengaluru Zone 237",
+        "opportunity_score": 65,
+        "poi_count": 37,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 32.9,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.69987970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_238",
+        "name": "Bengaluru Zone 238",
+        "opportunity_score": 57,
+        "poi_count": 7,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 107.4,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.908490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_239",
+        "name": "Bengaluru Zone 239",
+        "opportunity_score": 51,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 222.26,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_240",
+        "name": "Bengaluru Zone 240",
+        "opportunity_score": 70,
+        "poi_count": 25,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 31.68,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_241",
+        "name": "Bengaluru Zone 241",
+        "opportunity_score": 85,
+        "poi_count": 304,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 10.1,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_242",
+        "name": "Bengaluru Zone 242",
+        "opportunity_score": 85,
+        "poi_count": 307,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 90.38,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_243",
+        "name": "Bengaluru Zone 243",
+        "opportunity_score": 69,
+        "poi_count": 106,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 126.95,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_244",
+        "name": "Bengaluru Zone 244",
+        "opportunity_score": 59,
+        "poi_count": 31,
+        "existing_chargers_nearby": 2,
+        "nearest_road_distance_m": 128.39,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_245",
+        "name": "Bengaluru Zone 245",
+        "opportunity_score": 63,
+        "poi_count": 8,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 0.78,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          13.013490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_246",
+        "name": "Bengaluru Zone 246",
+        "opportunity_score": 63,
+        "poi_count": 9,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 7.72,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.71487970000001,
+          13.028490500000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_247",
+        "name": "Bengaluru Zone 247",
+        "opportunity_score": 70,
+        "poi_count": 19,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 73.7,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_248",
+        "name": "Bengaluru Zone 248",
+        "opportunity_score": 70,
+        "poi_count": 26,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 14.86,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_249",
+        "name": "Bengaluru Zone 249",
+        "opportunity_score": 90,
+        "poi_count": 139,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 22.47,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_250",
+        "name": "Bengaluru Zone 250",
+        "opportunity_score": 74,
+        "poi_count": 71,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 269.79,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_251",
+        "name": "Bengaluru Zone 251",
+        "opportunity_score": 84,
+        "poi_count": 133,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 122.61,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_252",
+        "name": "Bengaluru Zone 252",
+        "opportunity_score": 64,
+        "poi_count": 17,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 245.42,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.72987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_253",
+        "name": "Bengaluru Zone 253",
+        "opportunity_score": 39,
+        "poi_count": 29,
+        "existing_chargers_nearby": 4,
+        "nearest_road_distance_m": 156.02,
+        "status": "Low Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.923490500000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_254",
+        "name": "Bengaluru Zone 254",
+        "opportunity_score": 75,
+        "poi_count": 194,
+        "existing_chargers_nearby": 5,
+        "nearest_road_distance_m": 5.73,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_255",
+        "name": "Bengaluru Zone 255",
+        "opportunity_score": 85,
+        "poi_count": 183,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 25.77,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_256",
+        "name": "Bengaluru Zone 256",
+        "opportunity_score": 90,
+        "poi_count": 132,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 35.53,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_257",
+        "name": "Bengaluru Zone 257",
+        "opportunity_score": 90,
+        "poi_count": 92,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 35.94,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_258",
+        "name": "Bengaluru Zone 258",
+        "opportunity_score": 63,
+        "poi_count": 4,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 75.03,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.74487970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_259",
+        "name": "Bengaluru Zone 259",
+        "opportunity_score": 55,
+        "poi_count": 12,
+        "existing_chargers_nearby": 1,
+        "nearest_road_distance_m": 37.86,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75987970000001,
+          12.938490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_260",
+        "name": "Bengaluru Zone 260",
+        "opportunity_score": 51,
+        "poi_count": 0,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 241.19,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75987970000001,
+          12.953490500000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_261",
+        "name": "Bengaluru Zone 261",
+        "opportunity_score": 70,
+        "poi_count": 10,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 46.39,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75987970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_262",
+        "name": "Bengaluru Zone 262",
+        "opportunity_score": 80,
+        "poi_count": 36,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 89.31,
+        "status": "High Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75987970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_263",
+        "name": "Bengaluru Zone 263",
+        "opportunity_score": 70,
+        "poi_count": 18,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 24.11,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.75987970000001,
+          12.998490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_264",
+        "name": "Bengaluru Zone 264",
+        "opportunity_score": 57,
+        "poi_count": 2,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 59.16,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77487970000001,
+          12.968490500000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_265",
+        "name": "Bengaluru Zone 265",
+        "opportunity_score": 57,
+        "poi_count": 2,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 69.13,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77487970000001,
+          12.983490500000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "loc_266",
+        "name": "Bengaluru Zone 266",
+        "opportunity_score": 51,
+        "poi_count": 3,
+        "existing_chargers_nearby": 0,
+        "nearest_road_distance_m": 552.44,
+        "status": "Medium Opportunity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77487970000001,
+          12.998490500000006
+        ]
+      }
+    }
+  ]
+}

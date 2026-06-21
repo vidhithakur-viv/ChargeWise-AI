@@ -1,0 +1,21 @@
+{
+  "city": "bengaluru",
+  "total_chargers": 45,
+  "operators": [
+    {
+      "name": "Others",
+      "chargers": 41,
+      "market_share": 91.11
+    },
+    {
+      "name": "Ather",
+      "chargers": 2,
+      "market_share": 4.44
+    },
+    {
+      "name": "BESCOM",
+      "chargers": 2,
+      "market_share": 4.44
+    }
+  ]
+}
