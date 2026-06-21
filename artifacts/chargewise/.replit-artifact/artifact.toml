@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/chargewise/"
+title = "ChargeWise AI"
+version = "1.0.0"
+id = "artifacts/chargewise"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/chargewise/" ]
+localPort = 26081
+
+[services.development]
+run = "pnpm --filter @workspace/chargewise run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/chargewise", "run", "build" ]
+publicDir = "artifacts/chargewise/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26081"
+BASE_PATH = "/chargewise/"

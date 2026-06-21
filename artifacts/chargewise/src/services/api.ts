@@ -1,12 +1,12 @@
-const BASE = '/api'
+const BASE = `${import.meta.env.BASE_URL}api`
 
-async function get(path) {
+async function get(path: string) {
   const res = await fetch(`${BASE}${path}`)
   if (!res.ok) throw new Error(`API error ${res.status}: ${path}`)
   return res.json()
 }
 
-async function post(path, body) {
+async function post(path: string, body: unknown) {
   const res = await fetch(`${BASE}${path}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -22,6 +22,6 @@ export const api = {
   getDeserts: (city = 'bengaluru') => get(`/deserts/${city}`),
   getRecommendations: (city = 'bengaluru') => get(`/recommendations/${city}`),
   getCompetitors: (city = 'bengaluru') => get(`/competitors/${city}`),
-  calculateROI: (data) => post('/roi', data),
-  askCopilot: (city, question) => post('/copilot', { city, question }),
+  calculateROI: (data: unknown) => post('/roi', data),
+  askCopilot: (city: string, question: string) => post('/copilot', { city, question }),
 }
