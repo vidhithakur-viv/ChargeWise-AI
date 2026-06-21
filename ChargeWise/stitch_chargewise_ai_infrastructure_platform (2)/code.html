@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ChargeWise AI | Executive Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&family=Geist:wght@400;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@100..900&family=Space+Mono:wght@100..900&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-container": "#00616d",
+                    "surface-container-lowest": "#0e0e0e",
+                    "on-tertiary-container": "#5a6178",
+                    "on-surface-variant": "#b9cbb9",
+                    "surface-dim": "#131313",
+                    "outline-variant": "#3b4b3d",
+                    "surface-variant": "#353534",
+                    "surface-bright": "#3a3939",
+                    "tertiary": "#fcfaff",
+                    "inverse-surface": "#e5e2e1",
+                    "on-tertiary-fixed": "#131b2e",
+                    "on-secondary-fixed-variant": "#004f58",
+                    "on-background": "#e5e2e1",
+                    "background": "#131313",
+                    "on-error-container": "#ffdad6",
+                    "error-container": "#93000a",
+                    "on-primary-container": "#007139",
+                    "secondary-fixed": "#9cf0ff",
+                    "outline": "#849585",
+                    "secondary": "#bdf4ff",
+                    "on-tertiary": "#283044",
+                    "tertiary-container": "#d6def8",
+                    "surface-container-high": "#2a2a2a",
+                    "secondary-container": "#00e3fd",
+                    "inverse-primary": "#006d37",
+                    "on-surface": "#e5e2e1",
+                    "on-error": "#690005",
+                    "primary": "#f1ffef",
+                    "on-primary": "#003919",
+                    "primary-container": "#00ff88",
+                    "surface-tint": "#00e479",
+                    "on-primary-fixed": "#00210c",
+                    "surface-container-highest": "#353534",
+                    "error": "#ffb4ab",
+                    "secondary-fixed-dim": "#00daf3",
+                    "on-secondary": "#00363d",
+                    "on-primary-fixed-variant": "#005228",
+                    "on-secondary-fixed": "#001f24",
+                    "on-tertiary-fixed-variant": "#3f465c",
+                    "tertiary-fixed-dim": "#bec6e0",
+                    "inverse-on-surface": "#313030",
+                    "primary-fixed": "#60ff99",
+                    "primary-fixed-dim": "#00e479",
+                    "surface-container": "#201f1f",
+                    "surface": "#131313",
+                    "tertiary-fixed": "#dae2fd",
+                    "surface-container-low": "#1c1b1b"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1440px",
+                    "margin-desktop": "64px",
+                    "unit": "8px",
+                    "margin-mobile": "20px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Inter"],
+                    "label-caps": ["Space Mono"],
+                    "headline-lg-mobile": ["Geist"],
+                    "body-md": ["Inter"],
+                    "headline-lg": ["Geist"],
+                    "metric-xl": ["Geist"],
+                    "display-lg": ["Geist"],
+                    "headline-md": ["Geist"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.15em", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400"}],
+                    "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "metric-xl": ["48px", {"lineHeight": "48px", "letterSpacing": "-0.05em", "fontWeight": "700"}],
+                    "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        .shimmer-border {
+            position: relative;
+        }
+        .shimmer-border::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            padding: 1px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.05) 100%);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+        .neon-glow {
+            box-shadow: 0px 0px 20px rgba(0, 255, 136, 0.15);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0e0e0e; }
+        ::-webkit-scrollbar-thumb { background: #3b4b3d; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter py-4 bg-white/5 backdrop-blur-xl border-b border-white/10 shadow-[0px_0px_20px_rgba(0,255,136,0.1)]">
+<div class="flex items-center gap-8">
+<span class="font-headline-md text-headline-md font-bold tracking-tighter text-on-surface">ChargeWise AI</span>
+<nav class="hidden md:flex gap-6">
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary-container pb-1" href="#">Dashboard</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#">Heatmap</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#">Desert Detection</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#">Recommendations</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#">ROI Calculator</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#">AI Copilot</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex bg-white/5 rounded-full px-4 py-1 border border-white/10 items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-sm">bolt</span>
+<span class="text-xs font-label-caps text-primary-container">GRID STATUS: OPTIMAL</span>
+</div>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-on-surface transition-colors p-2 hover:bg-white/10 rounded-full scale-95 active:scale-90">account_circle</button>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col h-full fixed left-0 top-0 pt-20 bg-surface-container-lowest border-r border-outline-variant shadow-2xl w-64 z-40">
+<div class="px-6 py-6 border-b border-outline-variant/30">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl overflow-hidden bg-primary-container/20 border border-primary-container/30 flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="A cinematic, high-detail macro shot of a sleek, dark metallic EV charging connector with integrated neon green LED strips. The lighting is moody and dramatic, reflecting off the carbon fiber surfaces in a high-tech dark luxury laboratory setting. Professional studio lighting emphasizes the precision engineering and clean lines of the electric vehicle infrastructure." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuap7nBhTOdoj576UFQ-2LUwSVerVtW4pOKflN1tLlRWa7aqcBL27H1UvWMXkgRhytaoFQv4q5R-WvmlUcPfgkfoYgpMp_TwLKTyy9tQn8_FnctTZDtOwxOfcbidgF0y38udeZSbEmIBcr5Sm4UWaoyMxZdvlIhVOBhbR-h_TZZiME4ug0Li85_QJbMe8X45jns_pgst-XSjDBsTXPfKrDicdXTNISP2Abs5Smiy6aHncbI5dMWzFkl9YGtnjYyU4Wt2PfrhqNEQ"/>
+</div>
+<div>
+<h3 class="font-label-caps text-label-caps text-on-surface leading-tight">Fleet Manager</h3>
+<p class="text-[10px] text-primary-container font-label-caps tracking-widest">ENTERPRISE TIER</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 mt-4 overflow-y-auto">
+<a class="flex items-center gap-3 bg-primary-container/10 text-primary-container border-r-4 border-primary-container p-4 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                Overview
+            </a>
+<a class="flex items-center gap-3 text-on-surface-variant p-4 hover:bg-white/5 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">map</span>
+                Live Map
+            </a>
+<a class="flex items-center gap-3 text-on-surface-variant p-4 hover:bg-white/5 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">electric_bolt</span>
+                Grid Analysis
+            </a>
+<a class="flex items-center gap-3 text-on-surface-variant p-4 hover:bg-white/5 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">payments</span>
+                Financials
+            </a>
+<a class="flex items-center gap-3 text-on-surface-variant p-4 hover:bg-white/5 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">psychology</span>
+                AI Insights
+            </a>
+<a class="flex items-center gap-3 text-on-surface-variant p-4 hover:bg-white/5 font-label-caps text-label-caps hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">settings</span>
+                System Status
+            </a>
+</nav>
+<div class="p-6 border-t border-outline-variant/30 space-y-4">
+<button class="w-full bg-primary-container text-on-primary font-label-caps text-label-caps py-3 rounded-lg hover:shadow-[0px_0px_20px_rgba(0,255,136,0.4)] transition-all active:scale-95">Upgrade to Pro</button>
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-3 text-on-surface-variant text-[11px] font-label-caps hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">help</span> Help Center
+                </a>
+<a class="flex items-center gap-3 text-on-surface-variant text-[11px] font-label-caps hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">settings</span> Settings
+                </a>
+</div>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="lg:pl-64 pt-24 min-h-screen">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8">
+<!-- Page Header -->
+<div class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h1 class="font-headline-lg text-headline-lg text-white mb-2">Executive Dashboard</h1>
+<p class="text-on-surface-variant font-body-lg text-body-lg max-w-2xl">Real-time infrastructure intelligence and predictive deployment analytics for national EV networks.</p>
+</div>
+<div class="flex items-center gap-4">
+<div class="bg-surface-container-high rounded-lg p-1 flex border border-outline-variant">
+<button class="px-4 py-2 bg-primary-container text-on-primary rounded font-label-caps text-[10px]">REAL-TIME</button>
+<button class="px-4 py-2 text-on-surface-variant font-label-caps text-[10px] hover:text-on-surface">PREDICTIVE</button>
+</div>
+<button class="bg-white/5 border border-white/10 p-2 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all">
+<span class="material-symbols-outlined">filter_list</span>
+</button>
+</div>
+</div>
+<!-- KPI Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-8">
+<!-- Card 1 -->
+<div class="glass-card shimmer-border p-6 rounded-xl group transition-all hover:translate-y-[-4px]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Total Opportunities</span>
+<div class="p-2 rounded-lg bg-primary-container/10 text-primary-container">
+<span class="material-symbols-outlined">explore</span>
+</div>
+</div>
+<div class="font-metric-xl text-metric-xl text-white mb-1">1,284</div>
+<div class="flex items-center gap-2 text-primary-container text-xs font-label-caps">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span>+12.5% VS LAST MONTH</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-card shimmer-border p-6 rounded-xl group transition-all hover:translate-y-[-4px]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Predicted Revenue</span>
+<div class="p-2 rounded-lg bg-secondary-container/10 text-secondary-container">
+<span class="material-symbols-outlined">payments</span>
+</div>
+</div>
+<div class="font-metric-xl text-metric-xl text-white mb-1">$4.2M</div>
+<div class="flex items-center gap-2 text-secondary-container text-xs font-label-caps">
+<span class="material-symbols-outlined text-sm">show_chart</span>
+<span>CONFIDENCE 94.2%</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="glass-card shimmer-border p-6 rounded-xl group transition-all hover:translate-y-[-4px]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Coverage Gap</span>
+<div class="p-2 rounded-lg bg-error-container/20 text-error">
+<span class="material-symbols-outlined">warning</span>
+</div>
+</div>
+<div class="font-metric-xl text-metric-xl text-white mb-1">18.4%</div>
+<div class="flex items-center gap-2 text-error text-xs font-label-caps">
+<span class="material-symbols-outlined text-sm">arrow_downward</span>
+<span>-3.1% REDUCTION</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="glass-card shimmer-border p-6 rounded-xl group transition-all hover:translate-y-[-4px]">
+<div class="flex justify-between items-start mb-4">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Deployment Score</span>
+<div class="p-2 rounded-lg bg-tertiary-container/10 text-tertiary-container">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+</div>
+<div class="font-metric-xl text-metric-xl text-white mb-1">92.8</div>
+<div class="flex items-center gap-2 text-tertiary-container text-xs font-label-caps">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>TOP QUARTILE PERFORMANCE</span>
+</div>
+</div>
+</div>
+<!-- Charts Bento Grid -->
+<div class="grid grid-cols-12 gap-6 mb-8">
+<!-- Revenue Forecast (Large Area Chart) -->
+<div class="col-span-12 xl:col-span-8 glass-card p-8 rounded-xl min-h-[400px] flex flex-col">
+<div class="flex justify-between items-center mb-8">
+<div>
+<h3 class="font-headline-md text-headline-md text-white">Revenue Forecast</h3>
+<p class="text-on-surface-variant text-sm">Quarterly projected earnings across all sectors</p>
+</div>
+<div class="flex gap-2">
+<span class="flex items-center gap-1.5 text-xs font-label-caps text-on-surface-variant"><div class="w-2 h-2 rounded-full bg-primary-container"></div> Projected</span>
+<span class="flex items-center gap-1.5 text-xs font-label-caps text-on-surface-variant"><div class="w-2 h-2 rounded-full bg-white/20"></div> Previous</span>
+</div>
+</div>
+<div class="flex-1 w-full relative">
+<!-- Custom SVG Area Chart Implementation -->
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 800 200">
+<defs>
+<lineargradient id="areaGradient" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#00FF88" stop-opacity="0.3"></stop>
+<stop offset="100%" stop-color="#00FF88" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<path d="M0,180 Q100,160 200,100 T400,60 T600,120 T800,20 L800,200 L0,200 Z" fill="url(#areaGradient)"></path>
+<path d="M0,180 Q100,160 200,100 T400,60 T600,120 T800,20" fill="none" stroke="#00FF88" stroke-width="3"></path>
+<circle cx="400" cy="60" fill="#00FF88" r="4"></circle>
+</svg>
+<div class="absolute bottom-0 w-full flex justify-between text-[10px] font-label-caps text-on-surface-variant pt-4 border-t border-white/5">
+<span>JAN</span><span>FEB</span><span>MAR</span><span>APR</span><span>MAY</span><span>JUN</span><span>JUL</span><span>AUG</span>
+</div>
+</div>
+</div>
+<!-- Coverage Analysis (Pie) -->
+<div class="col-span-12 xl:col-span-4 glass-card p-8 rounded-xl flex flex-col">
+<h3 class="font-headline-md text-headline-md text-white mb-2">Coverage Analysis</h3>
+<p class="text-on-surface-variant text-sm mb-8">Infrastructure saturation levels</p>
+<div class="flex-1 flex items-center justify-center relative">
+<div class="w-48 h-48 rounded-full border-[12px] border-white/5 relative flex items-center justify-center">
+<svg class="absolute inset-0 w-full h-full rotate-[-90deg]">
+<circle cx="50%" cy="50%" fill="none" r="44%" stroke="#00FF88" stroke-dasharray="276" stroke-dashoffset="60" stroke-linecap="round" stroke-width="12"></circle>
+<circle cx="50%" cy="50%" fill="none" r="44%" stroke="#00E5FF" stroke-dasharray="276" stroke-dashoffset="200" stroke-linecap="round" stroke-width="12"></circle>
+</svg>
+<div class="text-center">
+<div class="font-headline-md text-headline-md text-white">78%</div>
+<div class="text-[10px] font-label-caps text-on-surface-variant">GLOBAL AVG</div>
+</div>
+</div>
+</div>
+<div class="mt-8 grid grid-cols-2 gap-4">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-primary-container"></div>
+<span class="text-xs font-label-caps">High Demand (42%)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-secondary-container"></div>
+<span class="text-xs font-label-caps">Developing (36%)</span>
+</div>
+</div>
+</div>
+<!-- ROI Trends (Line Chart) -->
+<div class="col-span-12 md:col-span-6 glass-card p-8 rounded-xl h-[300px] flex flex-col">
+<h3 class="font-headline-md text-headline-md text-white mb-6">ROI Trends</h3>
+<div class="flex-1 w-full flex items-end gap-2 overflow-hidden">
+<div class="flex-1 bg-primary-container/20 border-t-2 border-primary-container rounded-t-sm" style="height: 40%"></div>
+<div class="flex-1 bg-primary-container/20 border-t-2 border-primary-container rounded-t-sm" style="height: 60%"></div>
+<div class="flex-1 bg-primary-container/20 border-t-2 border-primary-container rounded-t-sm" style="height: 55%"></div>
+<div class="flex-1 bg-primary-container/30 border-t-2 border-primary-container rounded-t-sm" style="height: 80%"></div>
+<div class="flex-1 bg-primary-container/20 border-t-2 border-primary-container rounded-t-sm" style="height: 70%"></div>
+<div class="flex-1 bg-primary-container/40 border-t-2 border-primary-container rounded-t-sm neon-glow" style="height: 95%"></div>
+<div class="flex-1 bg-primary-container/20 border-t-2 border-primary-container rounded-t-sm" style="height: 85%"></div>
+</div>
+<div class="mt-4 flex justify-between text-[10px] font-label-caps text-on-surface-variant">
+<span>REGION A</span><span>REGION B</span><span>REGION C</span>
+</div>
+</div>
+<!-- Demand Distribution (Bar Chart) -->
+<div class="col-span-12 md:col-span-6 glass-card p-8 rounded-xl h-[300px] flex flex-col">
+<h3 class="font-headline-md text-headline-md text-white mb-6">Demand Distribution</h3>
+<div class="space-y-4">
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-label-caps mb-1">
+<span>Urban Residential</span>
+<span class="text-primary-container">88%</span>
+</div>
+<div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+<div class="h-full bg-primary-container" style="width: 88%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-label-caps mb-1">
+<span>Commercial Hubs</span>
+<span class="text-secondary-container">64%</span>
+</div>
+<div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+<div class="h-full bg-secondary-container" style="width: 64%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-label-caps mb-1">
+<span>Highway Corridors</span>
+<span class="text-white/40">32%</span>
+</div>
+<div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+<div class="h-full bg-white/20" style="width: 32%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Opportunities Table -->
+<div class="glass-card rounded-xl overflow-hidden mb-12">
+<div class="px-8 py-6 border-b border-white/10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-white">Recent Opportunities</h3>
+<p class="text-on-surface-variant text-sm">AI-identified high-probability locations</p>
+</div>
+<button class="bg-primary-container/10 text-primary-container px-6 py-2 rounded-lg font-label-caps text-label-caps hover:bg-primary-container/20 transition-all border border-primary-container/20">
+                        EXPORT FULL REPORT
+                    </button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead class="bg-white/2 border-b border-white/5">
+<tr>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">Location</th>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">Demand Score</th>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">ROI</th>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">Population</th>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">Priority</th>
+<th class="px-8 py-4 font-label-caps text-label-caps text-on-surface-variant">Action</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-white/5">
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-8 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-white/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">location_on</span>
+</div>
+<span class="font-medium text-white">San Francisco, CA</span>
+</div>
+</td>
+<td class="px-8 py-4 font-label-caps text-primary-container">98.4</td>
+<td class="px-8 py-4 font-label-caps text-white">24.2%</td>
+<td class="px-8 py-4 font-label-caps text-on-surface-variant">874K</td>
+<td class="px-8 py-4">
+<span class="px-3 py-1 rounded-full bg-primary-container/20 text-primary-container text-[10px] font-label-caps border border-primary-container/30">CRITICAL</span>
+</td>
+<td class="px-8 py-4">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-8 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-white/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">location_on</span>
+</div>
+<span class="font-medium text-white">Austin, TX</span>
+</div>
+</td>
+<td class="px-8 py-4 font-label-caps text-primary-container">92.1</td>
+<td class="px-8 py-4 font-label-caps text-white">19.8%</td>
+<td class="px-8 py-4 font-label-caps text-on-surface-variant">961K</td>
+<td class="px-8 py-4">
+<span class="px-3 py-1 rounded-full bg-secondary-container/20 text-secondary-container text-[10px] font-label-caps border border-secondary-container/30">HIGH</span>
+</td>
+<td class="px-8 py-4">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-8 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-white/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">location_on</span>
+</div>
+<span class="font-medium text-white">Seattle, WA</span>
+</div>
+</td>
+<td class="px-8 py-4 font-label-caps text-primary-container">89.7</td>
+<td class="px-8 py-4 font-label-caps text-white">18.5%</td>
+<td class="px-8 py-4 font-label-caps text-on-surface-variant">737K</td>
+<td class="px-8 py-4">
+<span class="px-3 py-1 rounded-full bg-secondary-container/20 text-secondary-container text-[10px] font-label-caps border border-secondary-container/30">HIGH</span>
+</td>
+<td class="px-8 py-4">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</td>
+</tr>
+<tr class="hover:bg-white/5 transition-colors cursor-pointer group">
+<td class="px-8 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-high border border-white/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">location_on</span>
+</div>
+<span class="font-medium text-white">Denver, CO</span>
+</div>
+</td>
+<td class="px-8 py-4 font-label-caps text-primary-container">76.3</td>
+<td class="px-8 py-4 font-label-caps text-white">14.2%</td>
+<td class="px-8 py-4 font-label-caps text-on-surface-variant">715K</td>
+<td class="px-8 py-4">
+<span class="px-3 py-1 rounded-full bg-white/10 text-on-surface-variant text-[10px] font-label-caps border border-white/10">MEDIUM</span>
+</td>
+<td class="px-8 py-4">
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="lg:pl-64 w-full bg-surface-dim border-t border-outline-variant">
+<div class="w-full py-12 px-gutter flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto">
+<div class="flex flex-col items-center md:items-start gap-2 mb-6 md:mb-0">
+<span class="font-label-caps text-label-caps text-primary">ChargeWise AI Infrastructure</span>
+<p class="text-on-surface-variant text-xs">© 2024 ChargeWise AI Infrastructure. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="text-on-surface-variant hover:text-on-primary-fixed-variant transition-all hover:underline text-xs font-body-md" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-on-primary-fixed-variant transition-all hover:underline text-xs font-body-md" href="#">Terms of Service</a>
+<a class="text-on-surface-variant hover:text-on-primary-fixed-variant transition-all hover:underline text-xs font-body-md" href="#">API Documentation</a>
+<a class="text-on-surface-variant hover:text-on-primary-fixed-variant transition-all hover:underline text-xs font-body-md" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+<!-- AI Copilot FAB -->
+<button class="fixed bottom-8 right-8 w-16 h-16 bg-primary-container text-on-primary rounded-full shadow-[0px_0px_30px_rgba(0,255,136,0.5)] flex items-center justify-center hover:scale-110 active:scale-90 transition-all z-50 group">
+<span class="material-symbols-outlined text-3xl group-hover:rotate-12 transition-transform">psychology</span>
+</button>
+<script>
+        // Micro-interaction for number rolling effect (conceptual)
+        document.addEventListener('DOMContentLoaded', () => {
+            const metrics = document.querySelectorAll('.font-metric-xl');
+            metrics.forEach(metric => {
+                const target = metric.innerText;
+                metric.style.opacity = '0';
+                metric.style.transform = 'translateY(10px)';
+                
+                setTimeout(() => {
+                    metric.style.transition = 'all 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+                    metric.style.opacity = '1';
+                    metric.style.transform = 'translateY(0)';
+                }, 300);
+            });
+        });
+    </script>
+</body></html>
