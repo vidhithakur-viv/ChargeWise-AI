@@ -82,10 +82,10 @@ const features = [
 ]
 
 export default function Landing() {
-  const c1 = useCounter(1200)
-  const c2 = useCounter(92)
-  const c3 = useCounter(15)
-  const c4 = useCounter(500)
+  const c1 = useCounter(18083)
+  const c2 = useCounter(45)
+  const c3 = useCounter(41)
+  const c4 = useCounter(15)
 
   return (
     <div className="bg-[#050505] min-h-screen text-on-surface">
@@ -103,14 +103,14 @@ export default function Landing() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-primary-container/20 text-primary-container text-xs font-label-caps mb-6">
               <span className="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
-              Now Analyzing 500+ Cities
+              Analyzing 18,083 Demand Points
             </div>
             <h1 className="font-display-lg text-display-lg text-white mb-6 leading-tight font-bold">
               Powering The Future Of{' '}
               <span className="text-primary-container">EV Infrastructure</span>
             </h1>
             <p className="font-body-lg text-body-lg text-on-surface-variant mb-10">
-              AI-driven location intelligence for profitable charging station deployment. Optimize grid load, predict high-demand hubs, and secure ROI with precision.
+              The intelligence layer for EV infrastructure. Analyze demand, predict utilization, and unlock the highest-value charging locations before your competitors do.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/heatmap">
@@ -164,31 +164,34 @@ export default function Landing() {
         </div>
       </header>
 
-      {/* Metrics */}
-      <section className="py-24 bg-surface-container-lowest border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[
-            { val: c1, label: 'Potential Locations', suffix: '' },
-            { val: c2, label: 'Prediction Accuracy', suffix: '%' },
-            { val: c3, label: 'Potential Revenue', prefix: '₹', suffix: 'Cr+' },
-            { val: c4, label: 'Cities Analysed', suffix: '' },
-          ].map(({ val, label, suffix, prefix }) => (
-            <motion.div
-              key={label}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="text-center"
-            >
-              <div className="font-metric-xl text-metric-xl text-primary-container mb-2 font-bold">
-                {prefix}{val}{suffix}
-              </div>
-              <div className="font-label-caps text-label-caps text-on-surface-variant">{label}</div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+    {/* Metrics */}
+    <section className="py-24 bg-surface-container-lowest border-y border-white/5">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+        {[
+          { val: c1, label: 'Demand Signals Processed', suffix: '' },
+          { val: c2, label: 'Chargers Geomapped', suffix: '' },
+          { val: c3, label: 'Underserved Zones Found', suffix: '' },
+          { val: c4, label: 'Investment-Ready Sites', suffix: '' }
+        ].map(({ val, label, suffix, prefix }) => (
+          <motion.div
+            key={label}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center"
+          >
+            <div className="font-metric-xl text-metric-xl text-primary-container mb-2 font-bold">
+              {prefix}{val}{suffix}
+            </div>
+
+            <div className="font-label-caps text-label-caps text-on-surface-variant">
+              {label}
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
 
       {/* Features Bento */}
       <section className="py-32 relative">

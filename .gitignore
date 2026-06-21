@@ -47,3 +47,17 @@ Thumbs.db
 # Replit
 .cache/
 .local/
+.git/
+.local/
+.agents/
+artifacts/
+attached_assets/
+lib/
+scripts/
+__pycache__/
+*.pyc
+stitch_chargewise_ai_infrastructure_platform*/
+data/raw/
+node_modules/
+.env
+dist/
