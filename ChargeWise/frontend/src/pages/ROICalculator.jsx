@@ -110,11 +110,7 @@ export default function ROICalculator() {
             </Link>
           ))}
         </nav>
-        <div className="p-6">
-          <button className="w-full py-3 bg-primary-container text-on-primary font-bold rounded-lg neon-glow-btn transition-all">
-            Upgrade to Pro
-          </button>
-        </div>
+        <div className="p-6"></div>
       </aside>
 
       <main className="pt-24 pb-12 px-6 lg:pl-72 max-w-7xl mx-auto">
