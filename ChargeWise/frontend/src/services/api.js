@@ -1,4 +1,4 @@
-const BASE = 'https://chargewise-ai-lifp.onrender.com/'
+const BASE = 'https://chargewise-ai-lifp.onrender.com/api'
 
 async function get(path) {
   const res = await fetch(`${BASE}${path}`)
