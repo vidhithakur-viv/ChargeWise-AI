@@ -118,15 +118,7 @@ export default function AICopilot() {
             </div>
           </div>
         </div>
-
-        <div className="mt-auto p-6 border-t border-outline-variant space-y-3">
-          <button className="w-full py-3 px-4 glass-panel rounded-lg flex items-center justify-center gap-2 text-on-surface hover:bg-white/10 transition-all font-label-caps text-label-caps">
-            <span className="material-symbols-outlined text-sm">settings</span> Configuration
-          </button>
-          <button className="w-full py-3 px-4 bg-primary-container text-on-primary font-label-caps text-label-caps rounded-lg neon-glow-btn transition-all flex items-center justify-center gap-2">
-            <span className="material-symbols-outlined text-sm">bolt</span> Upgrade to Pro
-          </button>
-        </div>
+        <div className="mt-auto p-6 border-t border-outline-variant"></div>
       </aside>
 
       {/* Main Chat */}
