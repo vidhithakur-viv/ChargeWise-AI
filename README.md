@@ -23,22 +23,22 @@ ChargeWise AI analyzes urban demand, existing charger density, and competitor pr
 ## Screenshots
 
 ### Landing Page
-![Landing Page](screenshots/landing-page.png)
+![Landing Page](landing-page.png)
 
 ### Executive Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### Heatmap
-![Heatmap](screenshots/heatmap.png)
+![Heatmap](heatmap.png)
 
 ### Desert Detection
-![Desert Detection](screenshots/desert-detection.png)
+![Desert Detection](desert-detection.png)
 
 ### ROI Calculator
-![ROI Calculator](screenshots/roi-calculator.png)
+![ROI Calculator](roi-calculator.png)
 
 ### AI Copilot
-![AI Copilot](screenshots/ai-copilot.png)
+![AI Copilot](ai-copilot.png)
 
 ## Core Features
 
