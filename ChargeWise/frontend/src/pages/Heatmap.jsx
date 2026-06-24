@@ -114,7 +114,7 @@ function LeafletMap({ heatmap, deserts, recommendations, competitors, activeLaye
 
       if (activeLayer === 'recs' && recommendations?.recommendations) {
         recommendations.recommendations.slice(0, 30).forEach(r => {
-          const [lat, lng] = r.coordinates
+          const [lng, lat] = r.coordinates
           const icon = makeIcon('#00ff88', 16)
 
           Lx.marker([lat, lng], { icon })
@@ -129,7 +129,7 @@ function LeafletMap({ heatmap, deserts, recommendations, competitors, activeLaye
 
       if (activeLayer === 'competitors' && competitors?.competitors) {
         competitors.competitors.forEach(c => {
-          const [lat, lng] = c.coordinates
+          const [lng, lat] = c.coordinates
           const icon = makeIcon('#00e3fd', 10)
 
           Lx.marker([lat, lng], { icon })
