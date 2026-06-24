@@ -95,7 +95,7 @@ function LeafletMap({ heatmap, deserts, recommendations, competitors, activeLaye
 
       if (activeLayer === 'deserts' && deserts?.deserts) {
         deserts.deserts.forEach(d => {
-          const [lat, lng] = d.coordinates
+          const [lng, lat] = d.coordinates
 
           Lx.circleMarker([lat, lng], {
             radius: 12,
