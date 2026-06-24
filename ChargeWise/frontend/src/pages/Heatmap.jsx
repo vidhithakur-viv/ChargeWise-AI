@@ -10,61 +10,68 @@ function LeafletMap({ heatmap, deserts, recommendations, competitors, activeLaye
   const mapRef = useRef(null)
   const mapInstance = useRef(null)
   const layerGroups = useRef({})
+  const [mapReady, setMapReady] = useState(false)
 
   useEffect(() => {
-    if (mapInstance.current) return
+    if (mapInstance.current || !mapRef.current) return
+
+    let cancelled = false
 
     import('leaflet').then(L => {
-      const map = L.default.map(mapRef.current, {
+      if (cancelled || !mapRef.current) return
+
+      const Lx = L.default
+
+      const map = Lx.map(mapRef.current, {
         center: BENGALURU_CENTER,
         zoom: 11,
         zoomControl: true,
       })
 
-      L.default.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      Lx.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap',
         maxZoom: 18,
       }).addTo(map)
 
+      layerGroups.current.heatmap = Lx.layerGroup().addTo(map)
+      layerGroups.current.deserts = Lx.layerGroup().addTo(map)
+      layerGroups.current.recs = Lx.layerGroup().addTo(map)
+      layerGroups.current.competitors = Lx.layerGroup().addTo(map)
+
       mapInstance.current = map
+      setMapReady(true)
 
-      setTimeout(() => {
-        map.invalidateSize()
-      }, 300)
-
-      setTimeout(() => {
-        map.invalidateSize()
-      }, 1000)
+      setTimeout(() => map.invalidateSize(), 100)
+      setTimeout(() => map.invalidateSize(), 500)
+      setTimeout(() => map.invalidateSize(), 1000)
     })
 
     return () => {
+      cancelled = true
+
       if (mapInstance.current) {
         mapInstance.current.remove()
         mapInstance.current = null
+        setMapReady(false)
       }
     }
   }, [])
 
   useEffect(() => {
-    if (!mapInstance.current) return
+    if (!mapReady || !mapInstance.current) return
 
     import('leaflet').then(L => {
       const Lx = L.default
+
       Object.values(layerGroups.current).forEach(g => g.clearLayers())
 
-      if (!layerGroups.current.heatmap) {
-        layerGroups.current.heatmap = Lx.layerGroup().addTo(mapInstance.current)
-        layerGroups.current.deserts = Lx.layerGroup().addTo(mapInstance.current)
-        layerGroups.current.recs = Lx.layerGroup().addTo(mapInstance.current)
-        layerGroups.current.competitors = Lx.layerGroup().addTo(mapInstance.current)
-      }
-
-      const makeIcon = (color, size = 14) => Lx.divIcon({
-        className: '',
-        html: `<div style="width:${size}px;height:${size}px;background:${color};border-radius:50%;border:2px solid rgba(255,255,255,0.3);box-shadow:0 0 8px ${color}"></div>`,
-        iconSize: [size, size],
-        iconAnchor: [size / 2, size / 2],
-      })
+      const makeIcon = (color, size = 14) =>
+        Lx.divIcon({
+          className: '',
+          html: `<div style="width:${size}px;height:${size}px;background:${color};border-radius:50%;border:2px solid rgba(255,255,255,0.3);box-shadow:0 0 8px ${color}"></div>`,
+          iconSize: [size, size],
+          iconAnchor: [size / 2, size / 2],
+        })
 
       if (activeLayer === 'heatmap' && heatmap?.features) {
         heatmap.features.forEach(f => {
@@ -133,8 +140,12 @@ function LeafletMap({ heatmap, deserts, recommendations, competitors, activeLaye
             .addTo(layerGroups.current.competitors)
         })
       }
+
+      setTimeout(() => {
+        mapInstance.current?.invalidateSize()
+      }, 100)
     })
-  }, [heatmap, deserts, recommendations, competitors, activeLayer])
+  }, [mapReady, heatmap, deserts, recommendations, competitors, activeLayer])
 
   return <div ref={mapRef} className="w-full h-full" />
 }
@@ -168,12 +179,26 @@ export default function Heatmap() {
         setDeserts(d)
         setRecommendations(r)
         setCompetitors(c)
-        if (r?.recommendations?.[0]) setSelectedSite(r.recommendations[0])
+
+        if (h?.features?.[0]) {
+          const f = h.features[0]
+          setSelectedSite({
+            location: f.properties.name,
+            score: f.properties.opportunity_score,
+            isHeatmap: true,
+            poi_count: f.properties.poi_count,
+          })
+        } else if (r?.recommendations?.[0]) {
+          setSelectedSite(r.recommendations[0])
+        }
+      })
+      .catch(error => {
+        console.error('Error loading heatmap data:', error)
       })
       .finally(() => setLoading(false))
   }, [])
 
-  const handleLayerChange = (id) => {
+  const handleLayerChange = id => {
     setActiveLayer(id)
 
     if (id === 'recs' && recommendations?.recommendations?.[0]) {
@@ -192,6 +217,10 @@ export default function Heatmap() {
         isHeatmap: true,
         poi_count: f.properties.poi_count,
       })
+    }
+
+    if (id === 'competitors' && competitors?.competitors?.[0]) {
+      setSelectedSite(competitors.competitors[0])
     }
   }
 
@@ -337,7 +366,7 @@ export default function Heatmap() {
                         <span className="font-metric-xl text-3xl text-on-surface font-bold leading-none">
                           {selectedSite.estimated_roi
                             ? `${selectedSite.estimated_roi}%`
-                            : selectedSite.existing_chargers ?? '—'}
+                            : selectedSite.existing_chargers ?? selectedSite.num_chargers ?? '—'}
                         </span>
                       </div>
                     </div>
